@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ "$0" = "$BASH_SOURCE" ]]; then
-    echo "Needs to be run using source: 'source test_sample.sh'"
+    echo "Needs to be run using source: 'source test.sh'"
 
 else
     VENVPATH="/home/pi/.venv/bin/activate"
