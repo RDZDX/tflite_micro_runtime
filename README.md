@@ -18,6 +18,14 @@ sudo apt-get install python3-pip
 
 python3 -m venv .venv
 
+--------------------------
+
+For image recognition:
+
+sudo apt-get install libopenjp2-7
+
+sudo apt-get install libopenblas-dev
+
 source .venv/bin/activate
 
 pip3 install numpy
@@ -25,6 +33,22 @@ pip3 install numpy
 pip3 install pillow
 
 pip3 install argparse
+
+deactivate
+
+------------------------------------
+
+For speech recognition:
+
+sudo apt-get install libportaudio2
+
+source .venv/bin/activate
+
+pip3 install scipy
+
+pip3 install python_speech_features
+
+pip3 install sounddevice
 
 deactivate
 
