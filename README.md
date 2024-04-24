@@ -10,8 +10,6 @@ sudo apt-get upgrade
 
 reboot
 
-sudo apt-get install libopenjp2-7
-
 sudo apt-get install libopenblas-dev
 
 sudo apt-get install python3-pip
@@ -23,8 +21,6 @@ python3 -m venv .venv
 For image recognition:
 
 sudo apt-get install libopenjp2-7
-
-sudo apt-get install libopenblas-dev
 
 source .venv/bin/activate
 
