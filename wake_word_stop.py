@@ -26,7 +26,7 @@ from tflite_micro_runtime.interpreter import Interpreter
 #sd.default.device = 4
 debug_time = 1
 debug_acc = 0
-led_pin = 8
+#led_pin = 8
 word_threshold = 0.5
 rec_duration = 0.5
 window_stride = 0.5
