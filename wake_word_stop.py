@@ -11,8 +11,12 @@ import python_speech_features
 #import RPi.GPIO as GPIO
 
 devices = sd.query_devices()
+devices1 = sd.query_devices(device=None,kind='input')
 print("Audiodevices:")
 print(devices)
+print()
+print("Microphone:")
+print(devices1["name"])
 print()
 
 #from tflite_runtime.interpreter import Interpreter
