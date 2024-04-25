@@ -9,6 +9,8 @@ import scipy.signal
 import timeit
 import python_speech_features
 #import RPi.GPIO as GPIO
+import sys
+sys.tracebacklimit=0
 
 devices = sd.query_devices()
 devices1 = sd.query_devices(device=None,kind='input')
