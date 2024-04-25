@@ -42,6 +42,8 @@ deactivate
 
 For speech recognition:
 
+attach USB microphone/USB webcam with microphone/USB sound card with microphone/BT hands free
+
 sudo apt-get install libportaudio2
 
 source .venv/bin/activate
