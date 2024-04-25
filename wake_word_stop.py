@@ -16,7 +16,7 @@ print("Audiodevices:")
 print(devices)
 print()
 print("Microphone:")
-print(devices1["name"])
+print(" ", devices1["index"], devices1["name"])
 print()
 
 #from tflite_runtime.interpreter import Interpreter
