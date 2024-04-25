@@ -42,8 +42,6 @@ deactivate
 
 For speech recognition:
 
-attach USB microphone/USB webcam with microphone/USB sound card with microphone/BT hands free
-
 sudo apt-get install libportaudio2
 
 source .venv/bin/activate
@@ -55,5 +53,7 @@ pip3 install python_speech_features
 pip3 install sounddevice
 
 deactivate
+
+attach USB microphone/USB webcam with microphone/USB sound card with microphone/BT hands free
 
 Source from https://github.com/driedler/tflite_micro_runtime
