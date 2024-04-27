@@ -42,6 +42,8 @@ deactivate
 
 For speech recognition:
 
+pip3 install argparse
+
 sudo apt-get install libportaudio2
 
 source .venv/bin/activate
