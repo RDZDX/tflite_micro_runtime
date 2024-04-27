@@ -42,8 +42,6 @@ deactivate
 
 For speech recognition:
 
-pip3 install argparse
-
 sudo apt-get install libportaudio2
 
 source .venv/bin/activate
@@ -53,6 +51,8 @@ pip3 install scipy
 pip3 install python_speech_features
 
 pip3 install sounddevice
+
+pip3 install argparse
 
 deactivate
 
