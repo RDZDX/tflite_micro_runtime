@@ -56,6 +56,6 @@ pip3 install argparse
 
 deactivate
 
-attach USB microphone/USB webcam with microphone/USB sound card with microphone/BT hands free
+attach USB microphone/USB webcam with microphone/USB sound card with microphone | connect BT hands free
 
 Source from https://github.com/driedler/tflite_micro_runtime
