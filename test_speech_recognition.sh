@@ -17,6 +17,6 @@ else
     echo "Activating virtual environment $VENVPATH"
     source "$VENVPATH"
 
-python3 wake_word_stop.py
+python3 wake_word_stop.py 2>/dev/null
 deactivate
 fi
