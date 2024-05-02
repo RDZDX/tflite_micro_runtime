@@ -62,4 +62,4 @@ attach USB microphone/USB webcam with microphone/USB sound card with microphone 
 
 source test_speech_recognition.sh
 
-Source from https://github.com/driedler/tflite_micro_runtime
+Code from https://github.com/driedler/tflite_micro_runtime
