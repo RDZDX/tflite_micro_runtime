@@ -39,6 +39,7 @@ pip3 install argparse
 deactivate
 
 test_image_recognition.sh
+
 ------------------------------------
 
 For speech recognition:
