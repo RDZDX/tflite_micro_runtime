@@ -38,7 +38,7 @@ pip3 install argparse
 
 deactivate
 
-test_image_recognition.sh
+source test_image_recognition.sh
 
 ------------------------------------
 
@@ -60,6 +60,6 @@ deactivate
 
 attach USB microphone/USB webcam with microphone/USB sound card with microphone | connect BT hands free
 
-test_speech_recognition.sh
+source test_speech_recognition.sh
 
 Source from https://github.com/driedler/tflite_micro_runtime
