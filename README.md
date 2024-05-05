@@ -60,6 +60,6 @@ deactivate
 
 attach USB microphone/USB webcam with microphone/USB sound card with microphone | connect BT hands free
 
-source test_speech_recognition.sh
+source test_speech_wake_word.sh
 
 Code from https://github.com/driedler/tflite_micro_runtime
