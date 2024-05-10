@@ -14,7 +14,7 @@ sudo apt-get install libopenblas-dev
 
 sudo apt-get install python3-pip
 
-python3 -m venv .venv
+python -m venv --system-site-packages .venv
 
 source .venv/bin/activate
 
