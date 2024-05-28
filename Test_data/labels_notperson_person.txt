@@ -1,2 +1,2 @@
-0:notperson
-1:person
+notperson
+person
