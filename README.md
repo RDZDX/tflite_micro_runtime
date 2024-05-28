@@ -62,4 +62,10 @@ attach USB microphone/USB webcam with microphone/USB sound card with microphone 
 
 source test_speech_wake_word.sh
 
+------------------------------------
+
+For recognition from camera:
+
+sudo apt install -y python3-picamera2 --no-install-recommends
+
 Code from https://github.com/driedler/tflite_micro_runtime
