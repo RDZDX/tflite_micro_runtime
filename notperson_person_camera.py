@@ -18,7 +18,8 @@ from PIL import Image
 sys.tracebacklimit=0
 
 normalSize = (640, 480)
-lowresSize = (320, 240)
+#lowresSize = (320, 240)
+lowresSize = (640, 480)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help='Path of the detection model.', required=True)
