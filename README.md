@@ -78,6 +78,6 @@ deactivate
 
 source test_notperson_person_camera.sh
 
+.
 
-
-Code from https://github.com/driedler/tflite_micro_runtime
+tflite_micro_runtime binary code from https://github.com/driedler/tflite_micro_runtime
