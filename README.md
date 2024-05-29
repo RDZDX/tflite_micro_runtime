@@ -68,7 +68,16 @@ For recognition from camera:
 
 sudo apt install -y python3-picamera2 --no-install-recommends
 
+source .venv/bin/activate
+
+pip3 install pillow
+
+pip3 install argparse
+
+deactivate
+
 source test_notperson_person_camera.sh
+
 
 
 Code from https://github.com/driedler/tflite_micro_runtime
