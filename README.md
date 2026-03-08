@@ -16,6 +16,10 @@ sudo apt-get install python3-pip
 
 sudo apt-get install python3-numpy
 
+sudo apt-get install python3-argcomplete
+
+sudo apt-get install python3-pil
+
 python3 -m venv --system-site-packages .venv
 
 source .venv/bin/activate
@@ -29,14 +33,6 @@ deactivate
 For image recognition:
 
 sudo apt-get install libopenjp2-7
-
-source .venv/bin/activate
-
-pip3 install pillow
-
-pip3 install argparse
-
-deactivate
 
 source test_image_recognition.sh
 
@@ -54,8 +50,6 @@ pip3 install python_speech_features
 
 pip3 install sounddevice
 
-pip3 install argparse
-
 deactivate
 
 attach USB microphone/USB webcam with microphone/USB sound card with microphone | connect BT hands free
@@ -67,14 +61,6 @@ source test_speech_wake_word.sh
 For recognition from camera:
 
 sudo apt install -y python3-picamera2 --no-install-recommends
-
-source .venv/bin/activate
-
-pip3 install pillow
-
-pip3 install argparse
-
-deactivate
 
 source test_notperson_person_camera.sh
 
