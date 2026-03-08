@@ -14,6 +14,8 @@ sudo apt-get install libopenblas-dev
 
 sudo apt-get install python3-pip
 
+sudo apt-get install python3-numpy
+
 python3 -m venv --system-site-packages .venv
 
 source .venv/bin/activate
@@ -29,8 +31,6 @@ For image recognition:
 sudo apt-get install libopenjp2-7
 
 source .venv/bin/activate
-
-pip3 install numpy
 
 pip3 install pillow
 
