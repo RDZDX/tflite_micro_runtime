@@ -34,8 +34,6 @@ deactivate
 
 For image recognition:
 
-sudo apt-get install libopenjp2-7
-
 source test_image_recognition.sh
 
 ------------------------------------
