@@ -56,7 +56,7 @@ source test_speech_wake_word.sh
 
 ------------------------------------
 
-For recognition from camera:
+For person recognition from videocamera:
 
 sudo apt install -y python3-picamera2 --no-install-recommends
 
