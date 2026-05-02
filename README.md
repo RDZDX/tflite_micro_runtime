@@ -10,8 +10,6 @@ sudo apt-get upgrade
 
 reboot
 
-sudo apt-get install libopenblas-dev
-
 sudo apt-get install python3-pip
 
 sudo apt-get install python3-numpy
