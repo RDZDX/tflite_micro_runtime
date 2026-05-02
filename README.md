@@ -24,6 +24,8 @@ python3 -m venv --system-site-packages .venv
 
 source .venv/bin/activate
 
+Download file - "[tflite_micro_runtime-1.2.2-cp311-cp311-linux_armv6l.whl](https://github.com/RDZDX/tflite_micro_runtime/blob/main/tflite_micro_runtime-1.2.2-cp311-cp311-linux_armv6l.whl?raw=true)".
+
 pip3 install tflite_micro_runtime-1.2.2-cp311-cp311-linux_armv6l.whl
 
 deactivate
