@@ -32,7 +32,7 @@ deactivate
 
 For image recognition:
 
-source test_image_recognition.sh
+source test_image_recognition_float32.sh
 
 ------------------------------------
 
@@ -52,7 +52,7 @@ deactivate
 
 attach USB microphone/USB webcam with microphone/USB sound card with microphone | connect BT hands free
 
-source test_speech_wake_word.sh
+source test_speech_wake_word_float32.sh
 
 ------------------------------------
 
@@ -60,7 +60,7 @@ For person recognition from videocamera:
 
 sudo apt install -y python3-picamera2 --no-install-recommends
 
-source test_notperson_person_camera.sh
+source test_notperson_person_camera_float32.sh
 
 .
 
